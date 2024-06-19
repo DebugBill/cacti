@@ -56,7 +56,7 @@ function ss_hstats($host_id = 0, $stat = '') {
 
 			break;
 		case 'uptime':
-			$column = 'snmp_sysUpTimeInstance';
+			$column = 'snmp_hrSystemUptime';
 
 			break;
 		case 'failed_polls':
